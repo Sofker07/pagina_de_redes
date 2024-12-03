@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+.container-fluid{
+    width: 100%;
+    padding: 20px 0;
+    color: var(--bs-white);    
+
+}
+.container {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background: var(--bs-gray-100);
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.container-header{
+    text-align: center;
+    margin: 60px 20px 20px 20px;
+}
+
+.card{
+    max-width: 500px;
+    margin: 0;
+    padding: 10px;
+}
+.card-body ul {
+    padding-left: 0;
+    text-align: justify;
+}
+
+.card-body ul li {
+    list-style-type: square;
+}
+
+.btn, btn-info{
+    background-color: RGBA(16, 124, 16, var(--bs-bg-opacity, 1)) !important;
+    color: var(--bs-white);    
+    align-items: end;
+
+}
+
+.col-12 .col-md-6 .col-lg-3 .mb-3{
+    content: normal;
+    max-width: 200px;
+}
+
+.c
+
+/* FOOTER */
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background-color:var(--bs-gray-500) !important; 
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+
+.container-footer footer .logo-footer img{
+    width: 200px;
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: var(--bs-white);    
+
+}
+
+footer .redes-footer .fa-facebook-f:hover{
+    background: #41579A;
+    color: var(--bs-white);    
+
+}
+
+footer .redes-footer .fa-google-plus-g:hover{
+    background: #DE4C34;
+    color: var(--bs-white);    
+
+}
+
+footer .redes-footer .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: var(--bs-gray-600);    
+
+}
+
+
+.container-footer footer hr{
+    margin-top: 2px;
+    border: none;
+    height: 2px;
+    background:var(--bs-gray-600);
+}
+
+
+.container-footer h4{
+    text-align: center;
+    margin-top: 4px;
+    color: var(--bs-gray-600);    
+    font-weight: 500;
+}
+.container-footer p{
+    text-align: center;
+    margin-top: 4px;
+    color: var(--bs-gray-600);
+    font-size: 12px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media (max-width: 1200px) {
+    .col-lg-3 {
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1220px){
+
+    .header-content,
+    .container-footer footer{
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        max-width: 100%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .col-md-6 {
+        max-width: 100%;
+    }
+}
+
+/* Custom, iPhone X-like devices */
+
+@media (max-width: 375px) {
+    .col-xs-12 {
+        max-width: 100%;
+    }
+}
